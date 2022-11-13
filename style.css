@@ -9,7 +9,7 @@
 header li a {
     text-decoration: none;
     font-size: 18px;
-    color: rgb(206, 155, 138);
+    color: darkgreen;
 }
 
 header {
@@ -28,7 +28,7 @@ header h1 {
     height: 24px;
     left: 60px;
     top: 20px;
-    color: rgb(193, 172, 151);
+    color: darkgreen;
 }
 
 .navbar {
@@ -47,22 +47,21 @@ header h1 {
     justify-content: center;
     grid-template-columns: 70% auto;
     gap: 10px;
-    background-color: #2196F3;
 }
 
 .headline-grid-header p {
     /* background-color: #f1f1f1; */
-    margin-left: 3%;
+    margin-left: 5%;
     text-align: left;
     line-height: auto;
-    font-size: 18px;
+    font-size: 64px;
     margin-bottom: 10px;
 }
 
 .headline-grid-header button {
-    display: block;
-    margin: 0px auto;
-    padding: 5px 15px;
+    font-size: 18px;
+    margin-left: 23%;
+    padding: 10px 15px;
     border-radius: 50px;
 }
 
@@ -109,22 +108,117 @@ header h1 {
     border-style: groove;
     border-color: darkgreen;
     text-align: center;
+    border-radius: 25px;
 }
 
 .review-specialty-grid3 {
     border-style: groove;
     border-color: darkgreen;
     text-align: center;
+    border-radius: 25px;
 }
 
 
 .contact {
-    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: #154732;
 }
 
-.contact-h1 {
+.contact-contact-h1 {
     color: white;
-    font-size: 24px;
+    /* font-size: 24px; */
     padding-bottom: 50px;
     padding-left: 50px;
+}
+
+.contact-contact-h1 {
+    color: white;
+    /* font-size: 24px; */
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.contact-logo-h1 {
+    color: white;
+    /* font-size: 24px; */
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.contact-faq-h1 {
+    color: white;
+    /* font-size: 24px; */
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+
+.head-store h1 {
+    padding-top: 3%;
+    padding-left: 57px;
+}
+
+.catalogue {
+    padding: 8% 11% 11% 11%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 15% 15% 15% 15%;
+    gap: 75px;
+}
+
+.catalogue-1 {
+    border-style: groove;
+    border-color: darkgreen;
+    text-align: center;
+    border-radius: 35px;
+}
+
+.catalogue-1 button {
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+
+
+.catalogue-2 {
+    border-style: groove;
+    border-color: darkgreen;
+    text-align: center;
+    border-radius: 35px;
+}
+
+.catalogue-2 button {
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+
+.catalogue-3 {
+    border-style: groove;
+    border-color: darkgreen;
+    text-align: center;
+    border-radius: 35px;
+}
+
+.catalogue-3 button {
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+
+
+.catalogue-4 {
+    border-style: groove;
+    border-color: darkgreen;
+    text-align: center;
+    border-radius: 35px;
+}
+
+
+.catalogue-4 button {
+    padding: 5px 10px;
+    border-radius: 25px;
 }
