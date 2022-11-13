@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    /* background-color: rgb(248, 229, 207); */
+}
+
+header li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(206, 155, 138);
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 3%;
+    padding-right: 3%;
+}
+
+header h1 {
+    background: none;
+    position: absolute;
+    width: 167px;
+    height: 24px;
+    left: 60px;
+    top: 20px;
+    color: rgb(193, 172, 151);
+}
+
+.navbar {
+    background: none;
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.headline-grid {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 70% auto;
+    gap: 10px;
+    background-color: #2196F3;
+}
+
+.headline-grid-header p {
+    /* background-color: #f1f1f1; */
+    margin-left: 3%;
+    text-align: left;
+    line-height: auto;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.headline-grid-header button {
+    display: block;
+    margin: 0px auto;
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+
+.headline-grid-header button a {
+    text-decoration: none;
+    color: black;
+}
+
+.headline-grid img {
+    justify-content: right;
+    border-radius: 15px 50px 30px;
+    width: 400px;
+    height: 550px;
+}
+
+.selling-point {
+    padding-top: 5%;
+}
+
+.selling-point-h1 {
+    font-size: 24px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.review {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 30% 30% 30%;
+    gap: 50px;
+}
+
+.review-specialty-grid1 {
+    background-color: none;
+    border-style: groove;
+    border-color: darkgreen;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.review-specialty-grid2 {
+    border-style: groove;
+    border-color: darkgreen;
+    text-align: center;
+}
+
+.review-specialty-grid3 {
+    border-style: groove;
+    border-color: darkgreen;
+    text-align: center;
+}
+
+
+.contact {
+    background-color: black;
+}
+
+.contact-h1 {
+    color: white;
+    font-size: 24px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
