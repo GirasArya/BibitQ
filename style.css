@@ -9,10 +9,11 @@
 header li a {
     text-decoration: none;
     font-size: 18px;
-    color: darkgreen;
+    color: white;
 }
 
 header {
+    background-color: rgb(47, 166, 47);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -21,14 +22,13 @@ header {
     padding-right: 3%;
 }
 
-header h1 {
+header img {
     background: none;
     position: absolute;
-    width: 167px;
-    height: 24px;
-    left: 60px;
+    width: 50px;
+    height: 50px;
+    left: 90px;
     top: 20px;
-    color: darkgreen;
 }
 
 .navbar {
@@ -46,11 +46,13 @@ header h1 {
     align-items: center;
     justify-content: center;
     grid-template-columns: 70% auto;
+    grid-template-rows: 85% 100px;
     gap: 10px;
+    background-color: rgb(47, 166, 47);
 }
 
 .headline-grid-header p {
-    /* background-color: #f1f1f1; */
+    color: white;
     margin-left: 5%;
     text-align: left;
     line-height: auto;
@@ -63,6 +65,7 @@ header h1 {
     margin-left: 23%;
     padding: 10px 15px;
     border-radius: 50px;
+    border-color: none;
 }
 
 .headline-grid-header button a {
@@ -183,7 +186,6 @@ header h1 {
     padding: 5px 10px;
     border-radius: 25px;
 }
-
 
 .catalogue-2 {
     border-style: groove;
