@@ -1,8 +1,12 @@
+@font-face {
+    font-family: MinionPro;
+    src: url(/font/MinionPro-Semibold.otf);
+}
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: poppins;
+    font-family: Montserrat;
     /* background-color: rgb(248, 229, 207); */
 }
 
@@ -57,8 +61,9 @@ header img {
     margin-left: 10%;
     text-align: left;
     line-height: auto;
-    font-size: 64px;
+    font-size: 56px;
     margin-bottom: 10px;
+    font-family: MinionPro;
 }
 
 .headline-grid-header button {
