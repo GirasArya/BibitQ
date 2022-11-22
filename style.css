@@ -54,18 +54,22 @@ header img {
     border: none;
 }
 
+#signup {
+    color: #2b2b2b;
+    padding: 10px 15px;
+    border-radius: 50px;
+    background-color: #E6E5A3;
+    border: none;
+}
+
 .headline-grid {
-    display: flex;
-    flex-direction: column;
-    background-image: url(/img/tomat-hero.png);
-    min-height: 15em;
-    height: 100vh;
-    align-self: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    display: grid;
     align-items: center;
-    justify-content: center;;
+    justify-content: center;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 50% 50%;
+    gap: 10px;
+    padding-top: 11%;
     background-color: #557153;
 }
 
@@ -75,6 +79,7 @@ header img {
 
 .headline-grid-header p {
     color: white;
+    margin-left: 10%;
     text-align: left;
     line-height: auto;
     font-size: 56px;
@@ -84,10 +89,11 @@ header img {
 
 .headline-grid-header button {
     font-size: 18px;
+    margin-left: 27%;
     padding: 10px 15px;
     border-radius: 50px;
     background-color: #E6E5A3;
-    border: none;
+    border-color: #E6E5A3;
 }
 
 .headline-grid-header button a {
@@ -95,9 +101,15 @@ header img {
     color: black;
 }
 
+.headline-grid img {
+    justify-content: right;
+    border-radius: 15px 50px 30px;
+    width: 400px;
+    height: 450px;
+}
+
 .selling-point {
     padding-top: 5%;
-    padding-bottom: 5%;
 }
 
 .selling-point-h1 {
@@ -107,68 +119,93 @@ header img {
 }
 
 .review {
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
-    margin: 0 8% 0 8%;
-    gap: 56px;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 30% 30% 30%;
+    gap: 50px;
 }
 
 .review-specialty-grid1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     background-color: none;
     border-style: groove;
     border-color: darkgreen;
     border-radius: 25px;
-    width: 32em;
-    height: 16em;
     text-align: center;
+}
+
+.review-specialty-grid2 {
+    border-style: groove;
+    border-color: darkgreen;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.review-specialty-grid3 {
+    border-style: groove;
+    border-color: darkgreen;
+    text-align: center;
+    border-radius: 25px;
 }
 
 
 .contact {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
     align-items: center;
     justify-content: center;
+    gap: 50px;
     background-color: #154732;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    gap: 64px;
+    padding-top: 35px;
 }
 
 .contact-contact-h1 {
     color: white;
-    font-size: small;
+    /* font-size: 24px; */
+    padding-bottom: 50px;
+    padding-left: 50px;
 }
 
-.contact img{
-    width: 4%;
+.contact-contact-h1 {
+    color: white;
+    /* font-size: 24px; */
+    padding-bottom: 50px;
+    padding-left: 50px;
 }
+
+.contact-logo-h1 img {
+    width: 130px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.contact-faq-h1 {
+    color: white;
+    /* font-size: 24px; */
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+
 .head-store h1 {
     padding-top: 3%;
     padding-left: 57px;
 }
 
 .catalogue {
-    padding: 8% 8% 8% 8%;
-    display: flex;
-    flex-wrap: wrap;
+    padding: 8% 11% 11% 11%;
+    display: grid;
     align-items: center;
     justify-content: center;
-    gap: 64px;
-    grid-template-columns: repeat(auto-fill,minmax(160px, 1fr));
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 75px;
 }
 
 .catalogue-1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1% 1%;
+    border-style: groove;
+    border-color: darkgreen;
     background-color: #557153;
     text-align: center;
     border-radius: 35px;
@@ -181,16 +218,14 @@ header img {
 .catalogue-1 img {
     width: 200px;
     height: 180px;
-    margin-top: 10%;
-    margin-bottom: 10%;
 }
 
 .catalogue-1 button {
+    padding: 5px 10px;
     border-radius: 25px;
     background-color: #E6E5A3;
+    border-color: #E6E5A3;
     margin-bottom: 15px;
-    border: none;
-    padding: 4% 16%;
 }
 
 .catalogue-1 a {
@@ -198,10 +233,97 @@ header img {
     color: black;
 }
 
-.confirmation h1 {
-    padding-top: 3%;
-    padding-left: 57px;
+.catalogue-2 {
+    border-style: groove;
+    border-color: darkgreen;
+    background-color: #557153;
+    text-align: center;
+    border-radius: 35px;
 }
+
+.catalogue-2 h1{
+    color: #E6E5A3;
+}
+
+.catalogue-2 img {
+    width: 200px;
+    height: 180px;
+}
+
+.catalogue-2 button {
+    padding: 5px 10px;
+    border-radius: 25px;
+    background-color: #E6E5A3;
+    border-color: #E6E5A3;
+    margin-bottom: 15px;
+}
+
+.catalogue-2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.catalogue-3 {
+    border-style: groove;
+    border-color: darkgreen;
+    background-color: #557153;
+    text-align: center;
+    border-radius: 35px;
+}
+
+.catalogue-3 h1{
+    color: #E6E5A3;
+}
+
+.catalogue-3 img {
+    width: 200px;
+    height: 180px;
+}
+
+.catalogue-3 button {
+    padding: 5px 10px;
+    border-radius: 25px;
+    background-color: #E6E5A3;
+    border-color: #E6E5A3;
+    margin-bottom: 15px;
+}
+
+.catalogue-3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.catalogue-4 {
+    border-style: groove;
+    border-color: darkgreen;
+    background-color: #557153;
+    text-align: center;
+    border-radius: 35px;
+}
+
+.catalogue-4 h1{
+    color: #E6E5A3;
+}
+
+.catalogue-4 img {
+    width: 200px;
+    height: 180px;
+}
+
+.catalogue-4 button {
+    padding: 5px 10px;
+    border-radius: 25px;
+    background-color: #E6E5A3;
+    border-color: #E6E5A3;
+    margin-bottom: 15px;
+
+}
+
+.catalogue-4 a {
+    text-decoration: none;
+    color: black;
+}
+
 .confirmation h1 {
     padding-top: 3%;
     padding-left: 57px;
@@ -212,110 +334,6 @@ header img {
     margin-top: 1%;
 }
 
-
-.confirmation-item {
-    margin-bottom: 2%;
-    margin-top: 2%;
-}
-
-.confirmation-item select{
-    margin-top: 8px;
-    background: #E6E5A3;
-    border: none;
-    border-radius: 50px;
-    padding: 10px 25px;
-    opacity: 0.5;
-}
-
-.confirmation-name input {
-    margin-top: 8px;
-    background: #E6E5A3;
-    border: none;
-    border-radius: 50px;
-    padding: 10px 25px;
-    opacity: 0.5;
-}
-
-.confirmation-address {
-    margin-bottom: 2%;
-    margin-top: 2%;
-}
-
-.confirmation-address input {
-    margin-top: 8px;
-    background: #E6E5A3;
-    border: none;
-    border-radius: 50px;
-    padding: 10px 25px;
-    opacity: 0.5;
-}
-
-.confirmation-postalcode {
-    margin-bottom: 2%;
-    margin-top: 2%;
-}
-
-.confirmation-postalcode input {
-    margin-top: 8px;
-    background: #E6E5A3;
-    border: none;
-    border-radius: 50px;
-    padding: 10px 25px;
-    opacity: 0.5;
-}
-
-.confirmation-phone {
-    margin-bottom: 2%;
-    margin-top: 2%;
-}
-
-.confirmation-phone input {
-    margin-top: 8px;
-    background: #E6E5A3;
-    border: none;
-    border-radius: 50px;
-    padding: 10px 25px;
-    opacity: 0.5;
-}
-
-.confirmation-quantity {
-    margin-bottom: 2%;
-    margin-top: 2%;
-}
-
-.confirmation-quantity input {
-    margin-top: 8px;
-    background: #E6E5A3;
-    border: none;
-    border-radius: 50px;
-    padding: 10px 25px;
-    opacity: 0.5;
-}
-
-.confirmation-courier {
-    margin-top: 2%;
-}
-
-.confirmation-courier select {
-    margin-top: 8px;
-    background: #E6E5A3;
-    border: none;
-    border-radius: 50px;
-    padding: 10px 25px;
-    opacity: 0.5;
-}
-
-.confirmation-submit button {
-    margin-top: 15px;
-    font-size: 14px;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 50px;
-    background-color: #A9AF7E;
-    border: none;
-}
-
-.confirmation-submit a{
-    text-decoration: none;
-    color: white;
+.confirmation-submit{
+    margin-top: 1%;
 }
