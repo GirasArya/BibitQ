@@ -45,20 +45,34 @@ header img {
     padding: 0px 20px;
 }
 
+#signup {
+    color: #2b2b2b;
+    padding: 10px 15px;
+    border-radius: 50px;
+    background-color: #E6E5A3;
+    border: none;
+}
+
 .headline-grid {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/img/hero-image.png);
+    min-height: 15em;
+    height: 100vh;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     align-items: center;
-    justify-content: center;
-    grid-template-columns: 70% 30%;
-    grid-template-rows: 50% 50%;
-    gap: 10px;
-    padding-top: 11%;
-    background-color: #557153;
+    justify-content: center;;
+}
+
+.headline-grid-header {
+    margin-right: 50%;
 }
 
 .headline-grid-header p {
     color: white;
-    margin-left: 10%;
     text-align: left;
     line-height: auto;
     font-size: 56px;
@@ -68,11 +82,10 @@ header img {
 
 .headline-grid-header button {
     font-size: 18px;
-    margin-left: 27%;
     padding: 10px 15px;
     border-radius: 50px;
     background-color: #E6E5A3;
-    border-color: #E6E5A3;
+    border: none;
 }
 
 .headline-grid-header button a {
@@ -80,15 +93,9 @@ header img {
     color: black;
 }
 
-.headline-grid img {
-    justify-content: right;
-    border-radius: 15px 50px 30px;
-    width: 400px;
-    height: 450px;
-}
-
 .selling-point {
     padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .selling-point-h1 {
@@ -98,36 +105,26 @@ header img {
 }
 
 .review {
-    display: grid;
+    display: flex;
     align-items: center;
     justify-content: center;
-    grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 30% 30% 30%;
-    gap: 50px;
+    margin: 0 8% 0 8%;
+    gap: 56px;
 }
 
 .review-specialty-grid1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: none;
     border-style: groove;
     border-color: darkgreen;
     border-radius: 25px;
+    width: 32em;
+    height: 16em;
     text-align: center;
 }
-
-.review-specialty-grid2 {
-    border-style: groove;
-    border-color: darkgreen;
-    text-align: center;
-    border-radius: 25px;
-}
-
-.review-specialty-grid3 {
-    border-style: groove;
-    border-color: darkgreen;
-    text-align: center;
-    border-radius: 25px;
-}
-
 
 .contact {
     display: flex;
