@@ -6,48 +6,118 @@
     margin: 0;
     padding: 0;
     outline: 0;
-    font-family: MinionPro;
+    font-family: poppins;
 }
-
-#kepala{
-    background: none;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 90px;
-    top: 20px;
-}
-body{
+.background{
+    background-image: url(img/blob-login.svg);
     height: 100vh;
-}
-body img{
     width: 100%;
-    height: 100%;
-    filter: blur(2px);
-    
+    background-size: cover;
+    background-position: center;
 }
-#kepala{
-    padding: 20px 25px;
-    background-color: #557153;
-    color: antiquewhite; 
+.background a{
+    text-decoration: none;
+    color: white;
 }
-#login{
-    position: absolute;
+.background-login{
+    position: relative;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
     padding: 20px 25px;
     width: 300px;
     background-color: #557153;
-    box-shadow: 0 0 5px antiquewhite;
-    filter: contrast(-16px);
+    border-radius: 32px;
 }
-#login h3{
+.background-login h3{
     text-align: center;
-    color: white;
-    text-transform: uppercase;
-    border-bottom: 3px solid whitesmoke;
+    color: white;  
+    font-size: 32px; 
+    margin-bottom: 5%;
+    /* border-bottom: 3px solid whitesmoke; */
 }
+
+
+.background-login input{
+    margin: 10px;
+    background: none;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.background-login ::placeholder{
+    color: white;
+}
+
+.background-login i{
+    color: white;
+}
+
+.background-login p{
+    margin-top: 5%;
+    color: white;
+    font-size: 12px;
+}
+
+.background-register{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 300px;
+    background-color: #557153;
+    border-radius: 32px;
+}
+.background-register h2{
+    text-align: center;
+    color: white;  
+    margin-bottom: 5%;
+    /* border-bottom: 3px solid whitesmoke; */
+}
+
+.background-register input{
+    margin: 10px;
+    background: none;
+    color: white;
+    border: none;
+
+}
+
+.background-register ::placeholder{
+    color: white;
+}
+
+.background-register i{
+    color: white;
+}
+
+.background-register p{
+    margin-top: 5%;
+    color: white;
+    font-size: 12px;
+}
+
+
+
+.background-button button{
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: #A9AF7E;
+    border: none;
+    position: relative;
+    left: 42%;
+}
+
+.background-button a{
+    text-decoration: none;
+    color: white;
+}
+
 #login .nama{
     color: #fff;
     text-transform: uppercase;
