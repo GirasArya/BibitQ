@@ -2,7 +2,6 @@
     font-family: MinionPro;
     src: url(/font/MinionPro-Semibold.otf);
 }
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -46,14 +45,6 @@ header img {
     padding: 0px 20px;
 }
 
-#signup {
-    color: #2b2b2b;
-    padding: 10px 15px;
-    border-radius: 50px;
-    background-color: #E6E5A3;
-    border: none;
-}
-
 .headline-grid {
     display: flex;
     flex-direction: column;
@@ -67,10 +58,6 @@ header img {
     align-items: center;
     justify-content: center;;
     background-color: #557153;
-}
-
-.headline-grid-header {
-    margin-right: 50%;
 }
 
 .headline-grid-header p {
