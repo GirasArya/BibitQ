@@ -7,8 +7,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: poppins;
+    font-family: montserrat;
     /* background-color: rgb(248, 229, 207); */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 header li a {
@@ -57,7 +62,7 @@ header img {
 .headline-grid {
     display: flex;
     flex-direction: column;
-    background-image: url(/img/tomat-hero.png);
+    background-image: url(/img/hero-image.png);
     min-height: 15em;
     height: 100vh;
     align-self: center;
@@ -149,8 +154,16 @@ header img {
     width: 4%;
 }
 
-.contact-icon i{
-    width: 10%;
+.contact-icon {
+    margin-top: 0.4em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: x-large;
+}
+
+#github {
+    text-decoration: none;
 }
 
 .head-store h1 {
@@ -325,3 +338,117 @@ header img {
     color: white;
 }
 
+
+
+
+.profile{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.profile a{
+    text-decoration: none;
+    color: white;
+}
+
+.profile-login{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 300px;
+    background-color: #557153;
+    border-radius: 32px;
+}
+.profile-login h3{
+    text-align: center;
+    color: white;  
+    font-size: 32px;
+    /* border-bottom: 3px solid whitesmoke; */
+}
+
+.profile-login p{
+    text-align: center;
+    color: white;  
+    font-size: 18px; 
+    /* border-bottom: 3px solid whitesmoke; */
+}
+
+.profile-login input{
+    margin: 10px;
+    background: none;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.profile-login ::placeholder{
+    color: white;
+}
+
+.profile-login i{
+    color: white;
+}
+
+.profile-login p{
+    margin-top: 5%;
+    color: white;
+    font-size: 12px;
+}
+
+.profile-register{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 300px;
+    background-color: #557153;
+    border-radius: 32px;
+}
+.profile-register h2{
+    text-align: center;
+    color: white;  
+    margin-bottom: 5%;
+    /* border-bottom: 3px solid whitesmoke; */
+}
+
+.profile-register input{
+    margin: 10px;
+    background: none;
+    color: white;
+    border: none;
+}
+
+.profile-register ::placeholder{
+    color: white;
+}
+
+.profile-register i{
+    color: white;
+}
+
+.profile-register p{
+    margin-top: 5%;
+    color: white;
+    font-size: 12px;
+}
+
+.profile-button button{
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: #A9AF7E;
+    border: none;
+    position: relative;
+    left: 42%;
+}
+
+.profile-button a{
+    text-decoration: none;
+    color: white;
+}
