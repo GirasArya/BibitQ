@@ -142,11 +142,17 @@ header img {
 .contact-contact-h1 {
     color: white;
     font-size: small;
+    text-align: center;
 }
 
 .contact img{
     width: 4%;
 }
+
+.contact-icon i{
+    width: 10%;
+}
+
 .head-store h1 {
     padding-top: 3%;
     padding-left: 57px;
@@ -318,3 +324,4 @@ header img {
     text-decoration: none;
     color: white;
 }
+
