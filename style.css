@@ -391,6 +391,8 @@ header img {
 
 .profile-login i{
     color: white;
+    margin-left: 3%;
+    margin-top: 5%;
 }
 
 .profile-login p{
@@ -441,7 +443,7 @@ header img {
 }
 
 .profile-button {
-    margin-top: 4em;
+    margin-top: 3em;
 }
 .profile-button button{
     font-size: 12px;
