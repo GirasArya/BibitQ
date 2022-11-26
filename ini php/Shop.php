@@ -1,0 +1,89 @@
+<?php
+session_start();
+include("configuration.php");
+if(!isset($_SESSION['username']))
+{
+    header("Location: fiturlogin.php");
+}
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <script src="https://kit.fontawesome.com/44003bbbd7.js" crossorigin="anonymous"></script>
+    <title>BibitQ</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img src="/img/logo/bibitq logo putih.png">
+        </a>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index1.php">Home</a></li>
+                <li><a href="Shop.php">Store</a></li>
+                <li>
+                    <a href="cart.php">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="fiturlogin.php">
+                        <i class="fa-solid fa-user"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="head-store">
+            <h1>What's On Your Mind?</h1>
+        </div>
+    </mian>
+
+
+    <main class="catalogue">
+        <div class="catalogue-1">
+            <h1>Spinach</h1>
+            <img src="/img/store-bayam.png">
+            <button><a href="confirmation.php">Add To Cart</a></button>
+        </div>
+        <div class="catalogue-1">
+            <h1>Turnip</h1>
+            <img src="/img/store-lobak.png">
+            <button><a href="confirmation.php">Add To Cart</a></button>
+        </div>
+        <div class="catalogue-1">
+            <h1>Chilli</h1>
+            <img src="/img/store-cabai.png">
+            <button><a href="confirmation.php">Add To Cart</a></button>
+        </div>
+        <div class="catalogue-1">
+            <h1>Tomato</h1>
+            <img src="/img/store-tomat.png">
+            <button><a href="confirmation.php">Add To Cart</a></button>
+        </div>
+    </main>
+
+    <footer class="contact">
+        <div class="contact-contact-h1">
+            <h1>Contact Us</h1>
+        </div>
+        <img src="/img/logo/bibitq logo putih.png">
+        <div class="contact-contact-h1">
+            <h1>About</h1>
+        </div>
+    </footer>
+</body>
+
+
+
+</html>

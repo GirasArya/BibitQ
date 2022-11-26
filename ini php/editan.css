@@ -1,0 +1,170 @@
+@font-face {
+    font-family: MinionPro;
+    src: url(/font/MinionPro-Semibold.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: poppins;
+}
+.background{
+    background-image: url(img/blob-login.svg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.background a{
+    text-decoration: none;
+    color: white;
+}
+.background-login{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 300px;
+    background-color: #557153;
+    border-radius: 32px;
+}
+.background-login h3{
+    text-align: center;
+    color: white;  
+    font-size: 32px; 
+    margin-bottom: 5%;
+    /* border-bottom: 3px solid whitesmoke; */
+}
+
+
+.background-login input{
+    margin: 10px;
+    background: none;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.background-login ::placeholder{
+    color: white;
+}
+
+.background-login i{
+    color: white;
+}
+
+.background-login p{
+    margin-top: 5%;
+    color: white;
+    font-size: 12px;
+}
+
+.background-register{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 300px;
+    background-color: #557153;
+    border-radius: 32px;
+}
+.background-register h2{
+    text-align: center;
+    color: white;  
+    margin-bottom: 5%;
+    /* border-bottom: 3px solid whitesmoke; */
+}
+
+.background-register input{
+    margin: 10px;
+    background: none;
+    color: white;
+    border: none;
+
+}
+
+.background-register ::placeholder{
+    color: white;
+}
+
+.background-register i{
+    color: white;
+}
+
+.background-register p{
+    margin-top: 5%;
+    color: white;
+    font-size: 12px;
+}
+
+
+
+.background-button button{
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: #A9AF7E;
+    border: none;
+    position: relative;
+    left: 42%;
+}
+
+.background-button a{
+    text-decoration: none;
+    color: white;
+}
+
+#login .nama{
+    color: #fff;
+    text-transform: uppercase;
+}
+#login .password1{
+    color: #fff;
+    text-transform: uppercase;
+}
+#login form input{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    color: #fff;
+    font-size: 20px;
+}
+#login button{
+    padding: 5px 1;
+    border: none;
+    width: 100%;
+    background-color: #E6E5A3;
+    text-decoration: bold;
+    text-transform: uppercase;
+    color: #557153;
+}
+
+form p{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+form p a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+form p a:hover{
+    text-decoration: underline;
+    color: #E6E5A3;
+}
+form button a{
+    text-decoration: none;
+    color: #557153;
+}
+form button a:hover{
+    text-decoration: underline; 
+}
