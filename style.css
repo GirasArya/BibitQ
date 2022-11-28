@@ -368,6 +368,7 @@ header img {
     text-align: center;
     color: white;  
     font-size: 32px;
+    margin-bottom: 1em;
     /* border-bottom: 3px solid whitesmoke; */
 }
 
@@ -440,6 +441,7 @@ header img {
 
 #profile-username {
     margin-top: 2em;
+    font-size: 1em;
 }
 
 .profile-button {
