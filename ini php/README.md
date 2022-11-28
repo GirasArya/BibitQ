@@ -1,2 +1,0 @@
-# BibitQ
-Project Akhir Basdat 
