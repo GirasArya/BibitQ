@@ -23,7 +23,7 @@ if(!isset($_SESSION['username']))
 <body>
     <header>
         <a href="index.html">
-            <img src="/img/logo/bibitq logo putih.png">
+            <img src="img/logo/bibitq logo putih.png">
         </a>
         <nav>
             <ul class="navbar">
@@ -53,22 +53,22 @@ if(!isset($_SESSION['username']))
     <main class="catalogue">
         <div class="catalogue-1">
             <h1>Spinach</h1>
-            <img src="/img/store-bayam.png">
+            <img src="img/store-bayam.png">
             <button><a href="confirmation.php">Add To Cart</a></button>
         </div>
         <div class="catalogue-1">
             <h1>Turnip</h1>
-            <img src="/img/store-lobak.png">
+            <img src="img/store-lobak.png">
             <button><a href="confirmation.php">Add To Cart</a></button>
         </div>
         <div class="catalogue-1">
             <h1>Chilli</h1>
-            <img src="/img/store-cabai.png">
+            <img src="img/store-cabai.png">
             <button><a href="confirmation.php">Add To Cart</a></button>
         </div>
         <div class="catalogue-1">
             <h1>Tomato</h1>
-            <img src="/img/store-tomat.png">
+            <img src="img/store-tomat.png">
             <button><a href="confirmation.php">Add To Cart</a></button>
         </div>
     </main>
@@ -77,7 +77,7 @@ if(!isset($_SESSION['username']))
         <div class="contact-contact-h1">
             <h1>Contact Us</h1>
         </div>
-        <img src="/img/logo/bibitq logo putih.png">
+        <img src="img/logo/bibitq logo putih.png">
         <div class="contact-contact-h1">
             <h1>About</h1>
         </div>

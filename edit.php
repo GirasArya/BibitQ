@@ -56,7 +56,7 @@ if(isset($_POST["submit"]))
 <body>
     <header>
         <a href="index1.php">
-            <img src="/img/logo/bibitq logo putih.png">
+            <img src="img/logo/bibitq logo putih.png">
         </a>
         <nav>
             <ul class="navbar">

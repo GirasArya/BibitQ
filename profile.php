@@ -20,7 +20,7 @@ if(!isset($_SESSION['username']))
 <body>
     <header>
         <a href="index.php">
-            <img src="/img/logo/bibitq logo putih.png">
+            <img src="img/logo/bibitq logo putih.png">
         </a>
         <nav>
             <ul class="navbar">
