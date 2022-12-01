@@ -22,6 +22,7 @@ if(isset($_POST["submit"]))
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="table.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <script src="https://kit.fontawesome.com/44003bbbd7.js" crossorigin="anonymous"></script>
     <title>BibitQ</title>
@@ -53,56 +54,56 @@ if(isset($_POST["submit"]))
     
     <main>
     </br>
-    <table border="1">
-	<thead>
-		<tr>
-			<th>Item</th>
-			<th>Nama Lengkap</th>
-			<th>Alamat</th>
-			<th>Postalcode</th>
-            <th>Phone Number</th>
-			<th>Quantity</th>
-            <th>courier</th>
-            <th></th>
-		</tr>
-	</thead>
-	<tbody>
+    <table class="styled-table">
+	    <thead>
+		    <tr>
+			    <th>Item</th>
+			    <th>Nama Lengkap</th>
+			    <th>Alamat</th>
+			    <th>Postalcode</th>
+                <th>Phone Number</th>
+			    <th>Quantity</th>
+                <th>Courier</th>
+                <th></th>
+		    </tr>
+	    </thead>
+	    <tbody>
 
-		<?php
-        $iduser = $_SESSION["id_user"];
-		$kueri = mysqli_query($con, "SELECT * FROM confirmation WHERE iduser = '$iduser'");
+		    <?php
+            $iduser = $_SESSION["id_user"];
+		    $kueri = mysqli_query($con, "SELECT * FROM confirmation WHERE iduser = '$iduser'");
        
          
         
-		while($baris = mysqli_fetch_array($kueri)){
-           //mengambil id konfirmasi
+		    while($baris = mysqli_fetch_array($kueri)){
+            //mengambil id konfirmasi
           
-           $_POST["confirmationid"]=$baris["confirmationid"];
+                $_POST["confirmationid"]=$baris["confirmationid"];
 
-			echo "<tr>";
+			    echo "<tr>";
             
             
-			echo "<td>".$baris['namaproduk']."</td>";
-			echo "<td>".$baris['Namalengkap']."</td>";
-			echo "<td>".$baris['alamat']."</td>";
-			echo "<td>".$baris['postalcode']."</td>";
-			echo "<td>".$baris['phonenumber']."</td>";
-            echo "<td>".$baris['quantity']."</td>";
-            echo "<td>".$baris['courier']."</td>";
+			    echo "<td>".$baris['namaproduk']."</td>";
+			    echo "<td>".$baris['Namalengkap']."</td>";
+			    echo "<td>".$baris['alamat']."</td>";
+			    echo "<td>".$baris['postalcode']."</td>";
+			    echo "<td>".$baris['phonenumber']."</td>";
+                echo "<td>".$baris['quantity']."</td>";
+                echo "<td>".$baris['courier']."</td>";
 
-            echo "<td>";
-            echo "<a href='hapus.php?id=".$baris['confirmationid']."'>Delete</a>";
-            echo "<br>";
-            echo "<a href='edit.php?id=".$baris['confirmationid']."'>Edit</a>";
-            echo "</td>";
-			echo "</tr>";
+                echo "<td>";
+                echo "<a href='hapus.php?id=".$baris['confirmationid']."'><b>Delete</b></a>";
+                echo "<br>";
+                echo "<a href='edit.php?id=".$baris['confirmationid']."'><b>Edit</b></a>";
+                echo "</td>";
+			    echo "</tr>";
 
 			}
 
 
-		?>
+		    ?>
 
-	</tbody>
+	    </tbody>
 	</table>
 
     </main>
