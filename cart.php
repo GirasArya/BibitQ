@@ -56,7 +56,6 @@ if(isset($_POST["submit"]))
     <table border="1">
 	<thead>
 		<tr>
-			
 			<th>Item</th>
 			<th>Nama Lengkap</th>
 			<th>Alamat</th>

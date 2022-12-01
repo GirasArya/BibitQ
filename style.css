@@ -59,21 +59,6 @@ header img {
     border: none;
 }
 
-.headline-grid {
-    display: flex;
-    flex-direction: column;
-    background-image: url(img/hero-image.png);
-    min-height: 15em;
-    height: 100vh;
-    align-self: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    align-items: center;
-    justify-content: center;;
-    background-color: #557153;
-}
-
 .headline-grid-header {
     margin-right: 50%;
 }
