@@ -62,7 +62,7 @@ header img {
 .headline-grid {
     display: flex;
     flex-direction: column;
-    background-image: url(/img/hero-image.png);
+    background-image: url(img/hero-image.png);
     min-height: 15em;
     height: 100vh;
     align-self: center;

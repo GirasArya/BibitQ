@@ -30,7 +30,7 @@ if(isset($_POST["submit"]))
 <body>
     <header>
         <a href="index.html">
-            <img src="/img/logo/bibitq logo putih.png">
+            <img src="img/logo/bibitq logo putih.png">
         </a>
         <nav>
             <ul class="navbar">
