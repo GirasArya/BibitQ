@@ -42,7 +42,7 @@
                 <label class="password1" for="pass">Password</label><br>
                 <input class="pass" type="password" placeholder="">
                 <br><br>
-                <button><a href="index.html">Login</a></button>
+                <button><a href="index.php">Login</a></button>
                 <p>Belum punya akun? <a href=#>Sign-in</a></p>
     </form> -->
 
